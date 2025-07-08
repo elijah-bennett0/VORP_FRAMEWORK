@@ -352,9 +352,19 @@ Config.SkinnableAnimals = {
         action = "Skinned",
         type = "satchel_textures"
     },
-    --[[   [-2021043433] = { name = "Elk", givenItem = { "venison", "elkantler", "elks" }, givenAmount = { 1, 1, 1 }, givenDisplay = {
-        "Venison", "Elk antler", "Elk pelt" }, money = 0, gold = 0, rolPoints = 0, xp = 1, texture = "animal_elk", action =
-    "Skinned", type = "satchel_textures" }, ]]
+    [-2021043433] = { 
+        name = "Elk", 
+        givenItem = { "venison", "elkantler", "elks" }, 
+        givenAmount = { 1, 1, 1 }, 
+        givenDisplay = {"Venison", "Elk antler", "Elk pelt" }, 
+        money = 0, 
+        gold = 0, 
+        rolPoints = 0, 
+        xp = 1, 
+        texture = "animal_elk", 
+        action = "Skinned", 
+        type = "satchel_textures" 
+    },
     [252669332]   = {
         name = "American Red Fox",
         givenItem = { "game", "foxt", "foxskin" },
@@ -1549,7 +1559,7 @@ Config.SkinnableAnimals = {
 
     ------------------------------------------------------------- LEGENDARY ANIMAL SKINNING STARTS HERE   ----------------------------------------------------------------------
 
-    [-2021043433] = {
+    [97487244] = {
         name = "Legendary White Elk",
         givenItem = { "venison", "elkantler", "legelks" },
         givenAmount = { 1, 1, 1 },
@@ -1558,7 +1568,7 @@ Config.SkinnableAnimals = {
         gold = 0,
         rolPoints = 0,
         xp = 1,
-        texture = "animal_elk",
+        texture = "mp_animal_elk_legendary_01",
         action = "Skinned",
         type = "satchel_textures"
     },
@@ -1912,21 +1922,6 @@ Config.Animals = {
         poor = nil,
         good = nil,
         perfect = nil
-    },
-    [-2021043433]  = {
-        name = "Elk",
-        givenItem = { "meat" },
-        givenAmount = { 0 },
-        money = 3.90,
-        gold = 0,
-        rolPoints = 0,
-        xp = 2,
-        poorQualityMultiplier = 1.0,
-        goodQualityMultiplier = 1.5,
-        perfectQualityMultiplier = 2,
-        poor = 2053771712,
-        good = 1181652728,
-        perfect = -1332163079
     },
     [252669332]    = {
         name = "American Red Fox",
@@ -3091,22 +3086,22 @@ Config.ButchersItemPrices = {
     ["kbirdf"] = 5.6,
     ["kcondorb"] = 5.6,
     ["kcondorf"] = 5.6,
-    ["legaligators"] = 5.6,
-    ["legaligators2"] = 5.6,
-    ["legbears2"] = 11.2,
-    ["legbeavers2"] = 5.6,
-    ["legbisons2"] = 5.6,
-    ["legboars1"] = 6.8,
-    ["legboars2"] = 6.8,
-    ["legbucks1"] = 5.6,
+    ["legaligators"] = 15.6,
+    ["legaligators2"] = 15.6,
+    ["legbears2"] = 20.2,
+    ["legbeavers2"] = 15.6,
+    ["legbisons2"] = 15.6,
+    ["legboars1"] = 16.8,
+    ["legboars2"] = 16.8,
+    ["legbucks1"] = 15.6,
     ["legcougars2"] = 11.2,
-    ["legcoyotes2"] = 5.6,
-    ["legelks"] = 5.6,
-    ["legendsnakes"] = 6.4,
-    ["legmooses1"] = 5.6,
+    ["legcoyotes2"] = 15.6,
+    ["legelks"] = 15.6,
+    ["legendsnakes"] = 16.4,
+    ["legmooses1"] = 15.6,
     ["legpanthers2"] = 11.2,
-    ["legrams2"] = 5.6,
-    ["legwolfs2"] = 8.8,
+    ["legrams2"] = 15.6,
+    ["legwolfs2"] = 18.8,
     ["lizardl"] = 5.6,
     ["lizards"] = 5.6,
     ["loonb"] = 5.6,
